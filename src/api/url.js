@@ -1,0 +1,20 @@
+import API from './enpoint';
+export const API_BASE_URL = 'http://192.168.1.37:6543/api';
+// export const API_BASE_URL = 'https://demo-be-miniproject-production.up.railway.app/api';
+// export const API_BASE_URL = 'http://localhost:6543/api';
+const getApiUrl = (endpoint) => API_BASE_URL + endpoint;
+
+export const LOGIN = getApiUrl(API.USER.LOGIN);
+export const ALLFOOD = getApiUrl(API.FOOD.GETALLFOOD);
+export const CATEGORY = getApiUrl(API.FOOD.CATEGORY);
+export const ADDCATEGORY = getApiUrl(API.FOOD.ADDCATEGORY);
+export const ALLORDER = getApiUrl(API.ORDER.GETALLORDER);
+export const ACCESSORDERS = getApiUrl(API.ORDER.ACCESSORDERS);
+export const FOODBYCATEGORY = getApiUrl(API.FOOD.GETFOODBYCATEGORY);
+export const FOODBYSEARCH = getApiUrl(API.FOOD.GETFOODBYSEARCH);
+export const UPDATEFOOD = getApiUrl(API.FOOD.UPDATEFOOD);
+export const GETIMAGE = getApiUrl(API.FOOD.GETIMAGE);
+export const ADDFOOD = getApiUrl(API.FOOD.ADDFOOD);
+export const FOOD = getApiUrl(API.FOOD.GETFOODID);
+export const ADDPRODUCT = getApiUrl(API.FOOD.ADDPRODUCT); 
+// export const FOODBYCATEGORY = getApiUrl(API.FOOD.FOODBYCATEGORY);

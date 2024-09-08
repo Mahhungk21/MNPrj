@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+@font-face{
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+@font-face {
+    font-family: "Poppins", sans-serif;
+    src: url('../src/assets/font/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+
+body  {
+    font-family: "Poppins", sans-serif;
+}
+/* .tile-table-fix-head {
+    height: calc(100vh - 200px);
+}
+
+.tile-table-fix-head table {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.tile-table-fix-head table {
+    width: 10px;
+    height: 10px;
+}
+
+.tile-table-fix-head table{
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+.tile-table-fix-head table thead {
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 400;
+    border: 0;
+} */
+.disable-button{
+  @apply bg-gray-400 text-white border-0 cursor-not-allowed hover:bg-gray-600;
+}
